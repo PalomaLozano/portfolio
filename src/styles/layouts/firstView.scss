@@ -8,6 +8,7 @@
   background-image: url(../../images/firstbackground.jpg);
   background-position: center;
   background: cover;
+  overflow: hidden;
   &__image {
     height: 95vh;
   }
@@ -49,10 +50,10 @@
   }
   &__btn {
     margin-top: 150px;
-    margin-left: 55px;
+    margin-left: 50px;
     padding: 5px;
-    height: 30px;
-    width: 120px;
+    height: 35px;
+    width: 130px;
     border-radius: 7px;
     border: solid rgb(246, 246, 246) 1px;
     box-shadow: 2px 2px 1px 1px rgb(255, 255, 255);
