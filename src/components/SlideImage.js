@@ -19,7 +19,7 @@ const SlideImage = () => {
       const firstElement = slideCarousel.current.children[0];
       console.log(firstElement);
       //se establece la transición
-      slideCarousel.current.style.transition = `500ms ease-out all`;
+      slideCarousel.current.style.transition = `5000ms ease-out all`;
       const slideSize = slideCarousel.current.children[0].offsetWidth;
 
       //movemos el carousel
@@ -49,7 +49,7 @@ const SlideImage = () => {
       const slideSizeTwo = slideCarousel.current.children[0].offsetWidth;
       slideCarousel.current.style.tranform = `translateX(-${slideSizeTwo}px)`;
       setTimeout(() => {
-        slideCarousel.current.style.transition = '500ms ease-out all';
+        slideCarousel.current.style.transition = '5000ms ease-out all';
         slideCarousel.current.style.transform = `translateX(0)`;
       }, 30);
     }
@@ -121,6 +121,9 @@ const Slide = styled.div`
 
   img {
     vertical-align: top;
+    border: solid 4px #a598ec;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px 0px rgba(200, 200, 200, 0.5);
   }
 `;
 const Control = styled.button`

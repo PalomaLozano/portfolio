@@ -5,7 +5,7 @@
   text-align: center;
   width: 100%;
   height: 100%;
-  background-image: url(../../images/firstbackground.jpg);
+  background-image: url(../../images/firstbackwhite.jpg);
   background-position: center;
   background: cover;
   overflow: hidden;
@@ -56,9 +56,9 @@
     padding: 5px;
     height: 35px;
     width: 130px;
+    border-style: none;
     border-radius: 7px;
-
-    box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(246, 246, 246, 0.3);
+    box-shadow: 1px 0.5px 1px 0.5px rgba(246, 246, 246, 0.3);
     background-image: linear-gradient(to left, #a598ec, #6badda, #7cc89c);
   }
 
