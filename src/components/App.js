@@ -1,6 +1,7 @@
 import '../styles/App.scss';
 import { Route, Switch } from 'react-router-dom';
 import FirstView from './FirstView';
+
 function App() {
   return (
     <>
@@ -10,10 +11,9 @@ function App() {
             <p>Menu</p>
             <p>Imagen</p>
           </header>
-          <div>
+          <main>
             <h1>Hola mundo</h1>
-          </div>
-          <footer>Logotipo</footer>
+          </main>
         </Route>
 
         <Route exact path="/">
