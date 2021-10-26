@@ -17,11 +17,11 @@ function App() {
     <>
       <Switch>
         <Route exact path="/home/">
+          <section className="headerLine">
+            <Header menu={menu} handleMenuButton={handleMenuButton} />
+          </section>
           <section className="mainPage">
-            <div className="headerLine">
-              <Header menu={menu} handleMenuButton={handleMenuButton} />
-              <MainPage />
-            </div>
+            <MainPage />
           </section>
         </Route>
 

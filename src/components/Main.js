@@ -1,7 +1,13 @@
+import SlideImage from './SlideImage';
+
 const MainPage = () => {
   return (
     <>
-      <main className="mainPage"></main>
+      <main>
+        <div className="slideImage">
+          <SlideImage />
+        </div>
+      </main>
     </>
   );
 };

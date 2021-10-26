@@ -2,7 +2,7 @@
 
 const Header = (props) => {
   return (
-    <header>
+    <header className="headerLine">
       <div className="menuhamb">
         {/*<img src={menuHamb} alt="menu" className="icon" />*/}
         <select onClick={props.handleMenuButton} className="selectMenu">

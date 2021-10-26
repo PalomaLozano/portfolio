@@ -118,6 +118,7 @@ const Slide = styled.div`
   overflow: hiden;
   transition: 0.3s ease all;
   z-index: 10;
+  margin-top: 100px;
 
   img {
     vertical-align: top;
