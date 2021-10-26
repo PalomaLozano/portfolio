@@ -1,28 +1,21 @@
 {
   "files": {
-    "main.css": "./static/css/main.029ca52f.chunk.css",
-    "main.js": "./static/js/main.d4d668e0.chunk.js",
-    "main.js.map": "./static/js/main.d4d668e0.chunk.js.map",
+    "main.css": "./static/css/main.2743eb74.chunk.css",
+    "main.js": "./static/js/main.121b21fc.chunk.js",
+    "main.js.map": "./static/js/main.121b21fc.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.7ad783a2.js",
     "runtime-main.js.map": "./static/js/runtime-main.7ad783a2.js.map",
-    "static/js/2.64b48cc3.chunk.js": "./static/js/2.64b48cc3.chunk.js",
-    "static/js/2.64b48cc3.chunk.js.map": "./static/js/2.64b48cc3.chunk.js.map",
+    "static/js/2.c0225366.chunk.js": "./static/js/2.c0225366.chunk.js",
+    "static/js/2.c0225366.chunk.js.map": "./static/js/2.c0225366.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.029ca52f.chunk.css.map": "./static/css/main.029ca52f.chunk.css.map",
-    "static/js/2.64b48cc3.chunk.js.LICENSE.txt": "./static/js/2.64b48cc3.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "./static/media/firstbackwhite.6183dad5.jpg",
-    "static/media/iconmonstr-angel-left-thin.b74b51c4.svg": "./static/media/iconmonstr-angel-left-thin.b74b51c4.svg",
-    "static/media/iconmonstr-angel-right-thin.b282d2fc.svg": "./static/media/iconmonstr-angel-right-thin.b282d2fc.svg",
-    "static/media/img1-slideshare.2ae47203.jpg": "./static/media/img1-slideshare.2ae47203.jpg",
-    "static/media/img2-slideshare.23d10d61.jpg": "./static/media/img2-slideshare.23d10d61.jpg",
-    "static/media/img3-slideshare.bb5b3473.jpg": "./static/media/img3-slideshare.bb5b3473.jpg",
-    "static/media/img4-slideshare.09013f68.jpg": "./static/media/img4-slideshare.09013f68.jpg",
-    "static/media/img5-slideshare.4048eeb6.jpg": "./static/media/img5-slideshare.4048eeb6.jpg"
+    "static/css/main.2743eb74.chunk.css.map": "./static/css/main.2743eb74.chunk.css.map",
+    "static/js/2.c0225366.chunk.js.LICENSE.txt": "./static/js/2.c0225366.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "./static/media/bgcolor2.45d667db.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7ad783a2.js",
-    "static/js/2.64b48cc3.chunk.js",
-    "static/css/main.029ca52f.chunk.css",
-    "static/js/main.d4d668e0.chunk.js"
+    "static/js/2.c0225366.chunk.js",
+    "static/css/main.2743eb74.chunk.css",
+    "static/js/main.121b21fc.chunk.js"
   ]
 }
