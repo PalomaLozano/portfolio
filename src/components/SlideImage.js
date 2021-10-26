@@ -19,7 +19,7 @@ const SlideImage = () => {
       const firstElement = slideCarousel.current.children[0];
       console.log(firstElement);
       //se establece la transición
-      slideCarousel.current.style.transition = `5000ms ease-out all`;
+      slideCarousel.current.style.transition = `3000ms ease-out all`;
       const slideSize = slideCarousel.current.children[0].offsetWidth;
 
       //movemos el carousel
@@ -49,7 +49,7 @@ const SlideImage = () => {
       const slideSizeTwo = slideCarousel.current.children[0].offsetWidth;
       slideCarousel.current.style.tranform = `translateX(-${slideSizeTwo}px)`;
       setTimeout(() => {
-        slideCarousel.current.style.transition = '5000ms ease-out all';
+        slideCarousel.current.style.transition = '3000ms ease-out all';
         slideCarousel.current.style.transform = `translateX(0)`;
       }, 30);
     }
@@ -124,6 +124,10 @@ const Slide = styled.div`
     border: solid 4px #a598ec;
     border-radius: 6px;
     box-shadow: 2px 2px 2px 0px rgba(200, 200, 200, 0.5);
+    @media all and (min-width: 768px) {
+      width: 490px;
+      height: 400px;
+    }
   }
 `;
 const Control = styled.button`
@@ -147,12 +151,17 @@ const Buttons = styled.button`
   text-align: space-between;
   position: absolute;
   transition: 0.3s ease all;
+  @media all and (min-width: 768px) {
+    padding-top: 180px;
+    padding-left: 190px;
+    padding-right: 195px;
+  }
 
   path {
     filter: ${(props) =>
       props.right
-        ? 'drop-shadow(-2px 0px 0px #fff)'
-        : 'drop-shadow(2px 0px 0px #fff)'};
+        ? 'drop-shadow(-2px 0px 0px #a598ec)'
+        : 'drop-shadow(2px 0px 0px #a598ec)'};
   }
   ${(props) => (props.right ? 'right: 0' : 'left:0')}
 `;

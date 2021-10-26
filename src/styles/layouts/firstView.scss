@@ -5,9 +5,10 @@
   text-align: center;
   width: 100%;
   height: 100%;
-  background-image: url(../../images/firstbackwhite.jpg);
+  background-image: url(../../images/bgcolor2.jpg);
   background-position: center;
   background: cover;
+  background-size: cover;
   overflow: hidden;
   &__image {
     height: 100vh;
@@ -15,7 +16,7 @@
 
   &__portfolio {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 180px;
     font-family: 'Raleway', sans-serif;
     font-size: 60px;
     color: transparent;
@@ -40,6 +41,10 @@
         background-position: 100% 50%;
       }
     }
+
+    @media all and (min-width: 768px) {
+      margin-top: 280px;
+    }
   }
 
   &__p {
@@ -48,11 +53,11 @@
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    color: rgb(148, 145, 141);
+    color: rgb(189, 189, 189);
   }
 
   &__btn {
-    margin-top: 60px;
+    margin-top: 30px;
     padding: 5px;
     height: 35px;
     width: 130px;
