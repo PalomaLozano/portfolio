@@ -8,7 +8,7 @@ const FirstView = () => {
         <p className="firstView__p">By Paloma.logu</p>
         <section></section>
         <button className="firstView__btn">
-          <Link to="/home/">
+          <Link to="/Home/">
             <p className="firstView__look">Take a look</p>
           </Link>
         </button>

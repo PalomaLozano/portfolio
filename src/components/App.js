@@ -5,6 +5,7 @@ import FirstView from './FirstView';
 import Header from './Header';
 import MainPage from './Main';
 import Footer from './Footer';
+import AllSections from './AllSections';
 
 function App() {
   const [menu, setMenu] = useState('');
@@ -17,7 +18,12 @@ function App() {
   return (
     <>
       <Switch>
-        <Route exact path="/home/">
+        <Route exact path="/All/">
+          <section>
+            <AllSections />
+          </section>
+        </Route>
+        <Route exact path="/Home/">
           <section className="headerLine">
             <Header menu={menu} handleMenuButton={handleMenuButton} />
           </section>
@@ -25,7 +31,7 @@ function App() {
             <MainPage />
           </section>
           <section>
-            <Footer className="footer" />
+            <Footer />
           </section>
         </Route>
 

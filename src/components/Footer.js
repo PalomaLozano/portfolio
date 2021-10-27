@@ -3,7 +3,7 @@ const Footer = () => {
     <>
       <section>
         <footer>
-          <div className="footer-img">
+          <div className="footer">
             <p>Portfolio created by Paloma.logu</p>
           </div>
         </footer>

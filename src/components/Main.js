@@ -1,5 +1,6 @@
 import SlideImage from './SlideImage';
 import buttonGo from '../images/button_go.png';
+import { Link } from 'react-router-dom';
 
 const MainPage = () => {
   return (
@@ -25,9 +26,11 @@ const MainPage = () => {
               projects.
             </p>
           </div>
-          <div className="buttonGo">
-            <img src={buttonGo} alt="button" />
-          </div>
+          <Link to="/All/">
+            <div className="buttonGo">
+              <img src={buttonGo} alt="button" />
+            </div>
+          </Link>
         </section>
       </main>
     </>
