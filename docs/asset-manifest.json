@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.dcf8f18c.chunk.css",
-    "main.js": "./static/js/main.9eee79f0.chunk.js",
-    "main.js.map": "./static/js/main.9eee79f0.chunk.js.map",
+    "main.css": "./static/css/main.bb8f3ad4.chunk.css",
+    "main.js": "./static/js/main.4bfc91a2.chunk.js",
+    "main.js.map": "./static/js/main.4bfc91a2.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.7ad783a2.js",
     "runtime-main.js.map": "./static/js/runtime-main.7ad783a2.js.map",
     "static/js/2.693563fd.chunk.js": "./static/js/2.693563fd.chunk.js",
     "static/js/2.693563fd.chunk.js.map": "./static/js/2.693563fd.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.dcf8f18c.chunk.css.map": "./static/css/main.dcf8f18c.chunk.css.map",
+    "static/css/main.bb8f3ad4.chunk.css.map": "./static/css/main.bb8f3ad4.chunk.css.map",
     "static/js/2.693563fd.chunk.js.LICENSE.txt": "./static/js/2.693563fd.chunk.js.LICENSE.txt",
     "static/media/App.scss": "./static/media/bgcolor2.45d667db.jpg",
     "static/media/iconmonstr-angel-left-thin.b74b51c4.svg": "./static/media/iconmonstr-angel-left-thin.b74b51c4.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.7ad783a2.js",
     "static/js/2.693563fd.chunk.js",
-    "static/css/main.dcf8f18c.chunk.css",
-    "static/js/main.9eee79f0.chunk.js"
+    "static/css/main.bb8f3ad4.chunk.css",
+    "static/js/main.4bfc91a2.chunk.js"
   ]
 }
