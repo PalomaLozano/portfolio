@@ -3,7 +3,9 @@ const Footer = () => {
     <>
       <section>
         <footer>
-          <div className="footer-img"></div>
+          <div className="footer-img">
+            <p>Portfolio created by Paloma.logu</p>
+          </div>
         </footer>
       </section>
     </>

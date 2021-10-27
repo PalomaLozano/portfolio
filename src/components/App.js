@@ -4,6 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 import FirstView from './FirstView';
 import Header from './Header';
 import MainPage from './Main';
+import Footer from './Footer';
 
 function App() {
   const [menu, setMenu] = useState('');
@@ -22,6 +23,9 @@ function App() {
           </section>
           <section className="mainPage">
             <MainPage />
+          </section>
+          <section>
+            <Footer className="footer" />
           </section>
         </Route>
 
