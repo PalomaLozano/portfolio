@@ -19,7 +19,7 @@ const SlideImage = () => {
       const firstElement = slideCarousel.current.children[0];
       console.log(firstElement);
       //se establece la transición
-      slideCarousel.current.style.transition = `3000ms ease-out all`;
+      slideCarousel.current.style.transition = `4000ms ease-out all`;
       const slideSize = slideCarousel.current.children[0].offsetWidth;
 
       //movemos el carousel
@@ -49,7 +49,7 @@ const SlideImage = () => {
       const slideSizeTwo = slideCarousel.current.children[0].offsetWidth;
       slideCarousel.current.style.tranform = `translateX(-${slideSizeTwo}px)`;
       setTimeout(() => {
-        slideCarousel.current.style.transition = '3000ms ease-out all';
+        slideCarousel.current.style.transition = '4000ms ease-out all';
         slideCarousel.current.style.transform = `translateX(0)`;
       }, 30);
     }
@@ -108,6 +108,7 @@ const SlideImage = () => {
 
 const MainContainer = styled.div`
   position: relative;
+  margin-bottom: 10px;
 `;
 const ContainerSlideImage = styled.div`
   display: flex;
@@ -115,10 +116,9 @@ const ContainerSlideImage = styled.div`
 `;
 const Slide = styled.div`
   min-width: 100%;
-  overflow: hiden;
-  transition: 0.3s ease all;
+  overflow: hidden;
+  transition: 0.2s ease all;
   z-index: 10;
-  margin-top: 100px;
 
   img {
     vertical-align: top;
@@ -142,7 +142,7 @@ const Control = styled.button`
 const Buttons = styled.button`
   pointer-events: all;
   background: none;
-  padding-top: 85px;
+  padding-top: 90px;
   padding-right: 115px;
   padding-left: 110px;
   border: none;
@@ -151,7 +151,7 @@ const Buttons = styled.button`
   height: 100%;
   text-align: space-between;
   position: absolute;
-  transition: 0.3s ease all;
+  transition: 0.2s ease all;
   @media all and (min-width: 768px) {
     padding-top: 180px;
     padding-left: 190px;
