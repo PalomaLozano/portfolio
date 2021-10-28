@@ -3,7 +3,7 @@
   height: 50px;
   background-color: rgba(#24aeb3, 0.2);
   position: fixed;
-  z-index: 20;
+  z-index: 40;
 }
 
 .icon {
@@ -12,16 +12,24 @@
   padding: 7px;
   position: fixed;
 }
+.navMenu {
+  background-color: #382c6a;
+  margin-top: 50px;
+  margin-left: 10px;
+  width: 150px;
+  border-radius: 10px;
+  @media all and (min-width: 768px) {
+    width: 200px;
+  }
+}
 .selectMenu {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: transparent;
   text-decoration: none;
   list-style: none;
   margin: 7px;
   padding: 5px;
-  border: transparent;
   color: rgb(218, 218, 218);
   font-family: 'Quicksand', sans-serif;
   font-size: 18px;
@@ -31,10 +39,33 @@
   }
 
   .selectList {
-    background-color: #382c6a;
-    border: transparent;
+    padding: 5px;
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
+    &:hover {
+      color: transparent;
+      background-image: linear-gradient(
+        to left,
+        #ffd700,
+        #7b68ee,
+        #3498db,
+        #2ecc71,
+        #ffd700
+      );
+      background-clip: text;
+      animation: color 3s linear infinite;
+      animation-direction: alternate-reverse;
+      background-size: 500%;
+      @keyframes color {
+        from {
+          background-position: 0% 50%;
+        }
+
+        to {
+          background-position: 100% 50%;
+        }
+      }
+    }
   }
 }
 

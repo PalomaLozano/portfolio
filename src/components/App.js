@@ -6,18 +6,41 @@ import Header from './Header';
 import MainPage from './Main';
 import Footer from './Footer';
 import AllSections from './AllSections';
+import WebDev from './MainDevelopment';
+import Graphic from './MainDesign';
+import Photography from './MainDesign';
 
 function App() {
-  const [menu, setMenu] = useState('');
-  console.log(menu);
+  const [menu, setMenu] = useState(false);
+  const [content, setContent] = useState(false);
 
   const handleMenuButton = (ev) => {
     ev.preventDefault();
-    setMenu(ev.currentTarget.value);
+    setMenu(!menu);
   };
+
+  const handleContent = (ev) => {
+    setContent(!content);
+  };
+
   return (
     <>
       <Switch>
+        <Route exact path="/Photography/">
+          <section>
+            <Photography />
+          </section>
+        </Route>
+        <Route exact path="/GraphicDesign/">
+          <section>
+            <Graphic />
+          </section>
+        </Route>
+        <Route exact path="/WebDevelopment/">
+          <section>
+            <WebDev content={content} handleContent={handleContent} />
+          </section>
+        </Route>
         <Route exact path="/All/">
           <section>
             <AllSections />
