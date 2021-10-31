@@ -1,5 +1,5 @@
-import menuHamb from '../images/menuhamb.png';
-import MenuHamb from './MenuHamb';
+import menuHamb from '../../images/menuhamb.png';
+import MenuHamb from '../resources/MenuHamb';
 
 const Header = (props) => {
   return (

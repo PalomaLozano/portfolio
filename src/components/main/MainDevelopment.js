@@ -1,7 +1,7 @@
 import Header from './Header';
 import { useState } from 'react';
 import Footer from './Footer';
-import down from '../images/down-arrow.png';
+import down from '../../images/down-arrow.png';
 import Html from './html';
 
 const WebDev = (props) => {

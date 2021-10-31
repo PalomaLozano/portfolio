@@ -1,11 +1,11 @@
 import React, { useRef, useEffect } from 'react';
-import img1 from '../imagesCarousel/img1-slideshare.jpg';
-import img2 from '../imagesCarousel/img2-slideshare.jpg';
-import img3 from '../imagesCarousel/img3-slideshare.jpg';
-import img4 from '../imagesCarousel/img4-slideshare.jpg';
-import img5 from '../imagesCarousel/img5-slideshare.jpg';
-import { ReactComponent as LeftArrow } from '../imagesCarousel/iconmonstr-angel-left-thin.svg';
-import { ReactComponent as RightArrow } from '../imagesCarousel/iconmonstr-angel-right-thin.svg';
+import img1 from '../../imagesCarousel/img1-slideshare.jpg';
+import img2 from '../../imagesCarousel/img2-slideshare.jpg';
+import img3 from '../../imagesCarousel/img3-slideshare.jpg';
+import img4 from '../../imagesCarousel/img4-slideshare.jpg';
+import img5 from '../../imagesCarousel/img5-slideshare.jpg';
+import { ReactComponent as LeftArrow } from '../../imagesCarousel/iconmonstr-angel-left-thin.svg';
+import { ReactComponent as RightArrow } from '../../imagesCarousel/iconmonstr-angel-right-thin.svg';
 import styled from 'styled-components';
 
 const SlideImage = () => {
@@ -124,7 +124,7 @@ const Slide = styled.div`
     vertical-align: top;
     border: solid 4px #a598ec;
     border-radius: 6px;
-    box-shadow: 2px 2px 2px 0px rgba(200, 200, 200, 0.5);
+
     @media all and (min-width: 768px) {
       width: 490px;
       height: 400px;

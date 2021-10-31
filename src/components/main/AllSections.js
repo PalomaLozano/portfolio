@@ -1,21 +1,14 @@
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
-import Header from './Header';
-import graphic from '../images/graphicdes.png';
-import code from '../images/code.png';
-import lisboa from '../images/jar2.png';
-import arrow from '../images/whitearrow.png';
+import graphic from '../../images/graphicdes.png';
+import code from '../../images/code.png';
+import lisboa from '../../images/lisboa2.png';
+import arrow from '../../images/whitearrow.png';
+import Gif from '../Gif';
 
 const AllSections = () => {
-  const [menu, setMenu] = useState(false);
-  const handleMenuButton = (ev) => {
-    ev.preventDefault();
-    setMenu(!menu);
-  };
   return (
     <>
-      <Header menu={menu} handleMenuButton={handleMenuButton} />
       <section className="allSections">
         <div className="pSection">
           <p>Projects</p>
@@ -24,6 +17,7 @@ const AllSections = () => {
             photography
           </p>
         </div>
+
         <img src={arrow} alt="arrow" className="arrow" />
         <section className="projectImages">
           <div className="maquetationImg">

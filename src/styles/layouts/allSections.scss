@@ -13,10 +13,10 @@
 
   .pSection {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
     color: rgb(197, 197, 197);
     font-family: 'Quicksand', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     .descriptionSection {
       padding-top: 20px;
       font-size: 17px;
@@ -91,5 +91,17 @@
   }
   .maquetationImg {
     padding: 10px;
+  }
+}
+
+.videoGif {
+  margin-top: 20px;
+
+  width: 250px;
+  height: 200px;
+  @media all and (min-width: 768px) {
+    margin-top: 40px;
+    width: 450px;
+    height: 400px;
   }
 }

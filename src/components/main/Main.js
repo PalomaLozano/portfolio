@@ -1,6 +1,6 @@
-import SlideImage from './SlideImage';
-import buttonGo from '../images/button_go.png';
-import { Link } from 'react-router-dom';
+import SlideImage from '../resources/SlideImage';
+import AllSections from './AllSections';
+import arrow from '../../images/down-arrow.png';
 
 const MainPage = () => {
   return (
@@ -26,12 +26,9 @@ const MainPage = () => {
               projects.
             </p>
           </div>
-          <Link to="/All/">
-            <div className="buttonGo">
-              <img src={buttonGo} alt="button" />
-            </div>
-          </Link>
+          <img src={arrow} alt="arrow" className="arrowMain" />
         </section>
+        <AllSections />
       </main>
     </>
   );
