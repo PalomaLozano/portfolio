@@ -17,9 +17,27 @@
     color: rgb(197, 197, 197);
     font-family: 'Quicksand', sans-serif;
     font-size: 35px;
+    @media all and (min-width: 768px) {
+      margin-top: 300px;
+    }
+    @media all and (min-width: 1024px) {
+      margin-top: 150px;
+      font-size: 45px;
+    }
+    @media all and (min-width: 1440px) {
+      margin-top: 250px;
+    }
+    @media all and (min-width: 2044px) {
+      margin-top: 450px;
+      font-size: 55px;
+    }
+
     .descriptionSection {
       padding-top: 20px;
       font-size: 17px;
+      @media all and (min-width: 2044px) {
+        font-size: 35px;
+      }
     }
   }
   .arrow {
@@ -37,18 +55,20 @@
     .imageOne {
       max-width: 250px;
       max-height: 250px;
-
       border: solid 2px #a598ec;
       border-radius: 6px;
       @media all and (min-width: 768px) {
-        margin-top: 60px;
         max-width: 200px;
         max-height: 200px;
       }
       @media all and (min-width: 1024px) {
-        margin-top: 80px;
         max-width: 250px;
         max-height: 250px;
+      }
+
+      @media all and (min-width: 2560px) {
+        max-width: 350px;
+        max-height: 350px;
       }
     }
     .pGraphic {

@@ -124,10 +124,16 @@ const Slide = styled.div`
     vertical-align: top;
     border: solid 4px #a598ec;
     border-radius: 6px;
+    width: 290px;
+    height: 200px;
 
     @media all and (min-width: 768px) {
       width: 490px;
       height: 400px;
+    }
+    @media all and (min-width: 1024px) {
+      width: 750px;
+      height: 550px;
     }
   }
 `;
@@ -156,6 +162,11 @@ const Buttons = styled.button`
     padding-top: 180px;
     padding-left: 190px;
     padding-right: 195px;
+  }
+  @media all and (min-width: 1024px) {
+    padding-top: 270px;
+    padding-left: 330px;
+    padding-right: 335px;
   }
 
   path {

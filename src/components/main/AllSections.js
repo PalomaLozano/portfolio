@@ -1,10 +1,7 @@
 import { Link } from 'react-router-dom';
-import Footer from './Footer';
 import graphic from '../../images/graphicdes.png';
 import code from '../../images/code.png';
 import lisboa from '../../images/lisboa2.png';
-import arrow from '../../images/whitearrow.png';
-import Gif from '../Gif';
 
 const AllSections = () => {
   return (
@@ -18,7 +15,6 @@ const AllSections = () => {
           </p>
         </div>
 
-        <img src={arrow} alt="arrow" className="arrow" />
         <section className="projectImages">
           <div className="maquetationImg">
             <img src={code} alt="code img" className="imageOne" />
@@ -40,7 +36,6 @@ const AllSections = () => {
           </div>
         </section>
       </section>
-      <Footer />
     </>
   );
 };
