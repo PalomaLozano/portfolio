@@ -52,7 +52,7 @@ const ReactSection = () => {
       <p className="descriptionProject">
         This project is responsive so you can view this list where do you want.
         It´s a Rick and Morty character´s list, with the help of an API, we have
-        a list with the principal characters, who they are, where tey live, if
+        a list with the principal characters, who they are, where they live, if
         they are humans or aliens and in what chapter they appear.
       </p>
       <a

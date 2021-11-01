@@ -14,9 +14,12 @@
   padding-top: 100px;
   padding-bottom: 20px;
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 30px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
   color: rgb(197, 197, 197);
+  @media all and (min-width: 768px) {
+    font-size: 70px;
+  }
 }
 .imgweb {
   max-width: 300px;
@@ -141,6 +144,7 @@
   font-size: 18px;
   padding: 10px;
   padding-bottom: 20px;
+  text-align: justify;
   @media all and (min-width: 1024px) {
     max-width: 750px;
   }
