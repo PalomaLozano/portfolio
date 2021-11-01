@@ -5,7 +5,6 @@ import FirstView from './FirstView';
 import Header from './main/Header';
 import MainPage from './main/Main';
 import Footer from './main/Footer';
-import AllSections from './main/AllSections';
 import WebDev from './main/MainDevelopment';
 import Graphic from './main/MainDesign';
 import Photography from './main/MainDesign';
@@ -13,6 +12,8 @@ import Photography from './main/MainDesign';
 function App() {
   const [menu, setMenu] = useState(false);
   const [content, setContent] = useState(false);
+  const [contentJS, setContentJS] = useState(false);
+  const [contentR, setContentR] = useState(false);
 
   const handleMenuButton = (ev) => {
     ev.preventDefault();
@@ -21,6 +22,14 @@ function App() {
 
   const handleContent = (ev) => {
     setContent(!content);
+  };
+
+  const handleContentJS = (ev) => {
+    setContentJS(!contentJS);
+  };
+
+  const handleContentR = (ev) => {
+    setContentR(!contentR);
   };
 
   return (
@@ -38,7 +47,14 @@ function App() {
         </Route>
         <Route exact path="/WebDevelopment/">
           <section>
-            <WebDev content={content} handleContent={handleContent} />
+            <WebDev
+              content={content}
+              contentJS={contentJS}
+              contentR={contentR}
+              handleContent={handleContent}
+              handleContentJS={handleContentJS}
+              handleContentR={handleContentR}
+            />
           </section>
         </Route>
 
