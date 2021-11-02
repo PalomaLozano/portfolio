@@ -1,4 +1,4 @@
-const Graphic = () => {
+const Photography = () => {
   return <p>Graphic</p>;
 };
-export default Graphic;
+export default Photography;
