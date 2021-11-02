@@ -22,14 +22,20 @@ function App() {
 
   const handleContent = (ev) => {
     setContent(!content);
+    setContentJS(false);
+    setContentR(false);
   };
 
   const handleContentJS = (ev) => {
     setContentJS(!contentJS);
+    setContent(false);
+    setContentR(false);
   };
 
   const handleContentR = (ev) => {
     setContentR(!contentR);
+    setContent(false);
+    setContentJS(false);
   };
 
   return (
