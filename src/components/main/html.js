@@ -7,7 +7,7 @@ import anom5 from '../../imageswebdev/anonim-desk2.png';
 const Html = () => {
   return (
     <>
-      <p className="anomP">Anonymous Proxy</p>
+      <h4 className="anomP">Anonymous Proxy</h4>
       <p className="version">Mobile version</p>
       <section className="mobilesSection">
         <img src={anom1} alt="mobile" className="mobile"></img>

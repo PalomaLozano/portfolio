@@ -17,7 +17,7 @@ const SlideImage = () => {
     if (slideCarousel.current.children.length > 0) {
       //aquí obtenemos el primer elemento
       const firstElement = slideCarousel.current.children[0];
-      console.log(firstElement);
+
       //se establece la transición
       slideCarousel.current.style.transition = `4000ms ease-out all`;
       const slideSize = slideCarousel.current.children[0].offsetWidth;

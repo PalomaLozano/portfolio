@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-image: url(../../images/bgcolor2.jpg);
   background-size: cover;
   background-position: center;
@@ -27,8 +28,8 @@
   padding-top: 30px;
   padding-bottom: 60px;
   @media all and (min-width: 768px) {
-    max-height: 300px;
-    max-width: 600px;
+    max-height: 400px;
+    max-width: 700px;
   }
   @media all and (min-width: 1024px) {
     max-height: 700px;
@@ -87,6 +88,12 @@
   }
 }
 
+.containerWeb {
+  max-width: 300px;
+  @media all and (min-width: 768px) {
+    max-width: 750px;
+  }
+}
 .anomP {
   color: rgb(197, 197, 197);
   text-align: center;

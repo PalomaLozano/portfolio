@@ -12,8 +12,10 @@ import rick4 from '../../imageswebdev/rick2.png';
 const ReactSection = () => {
   return (
     <>
-      <p className="anomP">Organizer</p>
+      <h4 className="anomP">Organizer</h4>
+
       <p className="version">Mobile version</p>
+
       <section className="mobilesSection">
         <img src={org} alt="mobile" className="mobile"></img>
         <img src={org1} alt="mobile" className="mobile"></img>
@@ -37,7 +39,7 @@ const ReactSection = () => {
       >
         Link
       </a>
-      <p className="anomP">Rick and Morty</p>
+      <h4 className="anomP">Rick and Morty</h4>
       <p className="version">Mobile version</p>
       <section className="mobilesSection">
         <img src={rick} alt="mobile" className="mobile"></img>
@@ -62,7 +64,8 @@ const ReactSection = () => {
       >
         Link
       </a>
-      <p className="welcome">This portfolio is created with React!</p>
+
+      <p className="welcome">This portfolio it´s created with React!</p>
     </>
   );
 };

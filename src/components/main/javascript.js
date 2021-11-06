@@ -9,7 +9,7 @@ import JS4 from '../../imageswebdev/javas2.png';
 const Javascript = () => {
   return (
     <>
-      <p className="anomP">Guess the number</p>
+      <h4 className="anomP">Guess the number</h4>
       <p className="version">Desktop version</p>
       <section className="tabletSection">
         <img src={guess} alt="desk" className="desk"></img>
@@ -28,14 +28,14 @@ const Javascript = () => {
         Link
       </a>
 
-      <p className="anomP">TV Shows</p>
+      <h4 className="anomP">TV Shows</h4>
       <p className="version">Desktop version</p>
       <section className="tabletSection">
         <img src={tv} alt="desk" className="desk"></img>
       </section>
       <p className="descriptionProject">
         This project it´s created only for desktop. It´s a shows list where you
-        have an input for search a TV Show and when yoou click in any show, this
+        have an input for search a TV Show and when you click in any show, this
         will go to the favorites shows section. Also, if you click again in the
         same show, you will remove it from the favorites list.
       </p>
@@ -46,7 +46,7 @@ const Javascript = () => {
       >
         Link
       </a>
-      <p className="anomP">JavaScript Project</p>
+      <h4 className="anomP">JavaScript Project</h4>
       <p className="version">Mobile version</p>
       <section className="mobilesSection">
         <img src={JS} alt="mobile" className="mobile"></img>
@@ -59,10 +59,10 @@ const Javascript = () => {
         <img src={JS4} alt="desk" className="desk"></img>
       </section>
       <p className="descriptionProject">
-        This project is a shows list where you have an input for search a TV
-        Show and when yoou click in any show, this will go to the favorites
-        shows section. Also, if you click again in the same show, you will
-        remove it from the favorites list. It´s under construction.
+        This project is a web about Javascript. It explains the basics of
+        Javascript, with this web anyone can start it´s own path in the
+        programming world. It´s under construction and it only have theorical
+        learning.
       </p>
       <a
         href=" https://palomalozano.github.io/Javascript-Project/page1.html"

@@ -8,7 +8,7 @@
   background-size: cover;
   overflow: hidden;
   @media all and (min-width: 768px) {
-    height: 100vh;
+    height: 100%;
   }
 
   .pSection {
@@ -18,17 +18,17 @@
     font-family: 'Quicksand', sans-serif;
     font-size: 35px;
     @media all and (min-width: 768px) {
-      margin-top: 300px;
+      margin: 100px;
     }
     @media all and (min-width: 1024px) {
-      margin-top: 150px;
+      margin: 100px;
       font-size: 45px;
     }
     @media all and (min-width: 1440px) {
-      margin-top: 250px;
+      margin: 100px;
     }
     @media all and (min-width: 2044px) {
-      margin-top: 450px;
+      margin: 100px;
       font-size: 55px;
     }
 
@@ -40,18 +40,13 @@
       }
     }
   }
-  .arrow {
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    max-width: 30px;
-    max-height: 30px;
-  }
+
   .projectImages {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
+    margin-bottom: 30px;
     .imageOne {
       max-width: 250px;
       max-height: 250px;
