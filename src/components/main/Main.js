@@ -7,7 +7,7 @@ const MainPage = () => {
     <>
       <main>
         <div className="welcome">
-          <p>Welcome!</p>
+          <h2>Welcome!</h2>
         </div>
 
         <section className="descriptionSection">

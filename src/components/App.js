@@ -48,7 +48,14 @@ function App() {
         </Route>
         <Route exact path="/GraphicDesign/">
           <section>
-            <Graphic />
+            <Graphic
+              content={content}
+              contentJS={contentJS}
+              contentR={contentR}
+              handleContent={handleContent}
+              handleContentJS={handleContentJS}
+              handleContentR={handleContentR}
+            />
           </section>
         </Route>
         <Route exact path="/WebDevelopment/">

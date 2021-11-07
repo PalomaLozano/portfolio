@@ -19,7 +19,7 @@ const SlideImage = () => {
       const firstElement = slideCarousel.current.children[0];
 
       //se establece la transición
-      slideCarousel.current.style.transition = `4000ms ease-out all`;
+      slideCarousel.current.style.transition = `2000ms ease-out all`;
       const slideSize = slideCarousel.current.children[0].offsetWidth;
 
       //movemos el carousel
@@ -49,7 +49,7 @@ const SlideImage = () => {
       const slideSizeTwo = slideCarousel.current.children[0].offsetWidth;
       slideCarousel.current.style.tranform = `translateX(-${slideSizeTwo}px)`;
       setTimeout(() => {
-        slideCarousel.current.style.transition = '4000ms ease-out all';
+        slideCarousel.current.style.transition = '2000ms ease-out all';
         slideCarousel.current.style.transform = `translateX(0)`;
       }, 30);
     }

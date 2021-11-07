@@ -8,7 +8,7 @@ const AllSections = () => {
     <>
       <section className="allSections">
         <div className="pSection">
-          <p>Projects</p>
+          <h2>Projects</h2>
           <p className="descriptionSection">
             Here you can find projects about web development, graphic design and
             photography

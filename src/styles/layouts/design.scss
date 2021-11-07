@@ -1,0 +1,71 @@
+.containerDesign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divBox {
+  margin-bottom: 100px;
+}
+.graphicImage {
+  max-width: 300px;
+  padding-bottom: 30px;
+  @media all and (min-width: 768px) {
+    max-width: 600px;
+  }
+  @media all and (min-width: 1024px) {
+    max-width: 900px;
+  }
+  @media all and (min-width: 1440px) {
+    max-width: 1200px;
+    padding-bottom: 30px;
+  }
+}
+.titleDes {
+  color: rgb(197, 197, 197);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+}
+.graphicP {
+  max-width: 300px;
+  color: rgb(197, 197, 197);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+
+.containerUl {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imagDes {
+    margin: 5px;
+    border: solid 2px #a598ec;
+    border-radius: 15px;
+    max-width: 300px;
+    max-height: 300px;
+    box-shadow: 1px 1px 5px 1px rgb(243, 225, 251);
+    @media all and (min-width: 768px) {
+      max-width: 200px;
+      max-height: 200px;
+    }
+    @media all and (min-width: 1024px) {
+      max-width: 300px;
+      max-height: 300px;
+    }
+    @media all and (min-width: 1440px) {
+      max-width: 400px;
+      max-height: 400px;
+    }
+  }
+}
