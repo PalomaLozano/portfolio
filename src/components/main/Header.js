@@ -5,13 +5,14 @@ const Header = (props) => {
   console.log('hola');
   return (
     <header className="headerLine">
-      <img
-        src={menuHamb}
-        alt="menu"
-        className="icon"
-        onClick={props.handleMenuButton}
-      />
-
+      <div className="containerHeader">
+        <img
+          src={menuHamb}
+          alt="menu"
+          className="icon"
+          onClick={props.handleMenuButton}
+        />
+      </div>
       <div className="menuhamb">{props.menu === true ? <MenuHamb /> : ''}</div>
     </header>
   );

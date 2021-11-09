@@ -16,43 +16,38 @@ const Graphic = (props) => {
   return (
     <>
       <Header menu={menu} handleMenuButton={handleMenuButton} />
-      <div className="background">
-        <section className="allWeb">
-          <p className="titleWeb">Graphic Design Projects</p>
-          <img
-            src={graphic}
-            alt="graphic design img"
-            className="graphicImage"
-          />
-          <div className="containerP">
-            <p className="pWeb">
-              This page is focused on projects I created with: Photoshop,
-              Illustrator and InDesign.
-            </p>
-          </div>
-          <section className="toggleCont">
-            <p className="toggleP">Illustrations</p>
-            <img
-              src={down}
-              alt="arrow"
-              className="arrow"
-              onClick={props.handleContent}
-            />
-          </section>
-          <p>{props.content === true ? <GraphicDes /> : ''}</p>
 
-          <section className="toggleCont">
-            <p className="toggleP">Posters</p>
-            <img
-              src={down}
-              alt="arrow"
-              className="arrow"
-              onClick={props.handleContentJS}
-            />
-          </section>
-          <p>{props.contentJS === true ? <Posters /> : ''}</p>
+      <section className="allWeb">
+        <p className="titleWeb">Graphic Design Projects</p>
+        <img src={graphic} alt="graphic design img" className="graphicImage" />
+        <div className="containerP">
+          <p className="pWeb">
+            This page is focused on projects I created with: Photoshop,
+            Illustrator and InDesign.
+          </p>
+        </div>
+        <section className="toggleCont">
+          <p className="toggleP">Illustrations</p>
+          <img
+            src={down}
+            alt="arrow"
+            className="arrow"
+            onClick={props.handleContent}
+          />
         </section>
-      </div>
+        <p>{props.content === true ? <GraphicDes /> : ''}</p>
+
+        <section className="toggleCont">
+          <p className="toggleP">Posters</p>
+          <img
+            src={down}
+            alt="arrow"
+            className="arrow"
+            onClick={props.handleContentJS}
+          />
+        </section>
+        <p>{props.contentJS === true ? <Posters /> : ''}</p>
+      </section>
 
       <Footer />
     </>

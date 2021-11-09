@@ -7,7 +7,7 @@ import MainPage from './main/Main';
 import Footer from './main/Footer';
 import WebDev from './main/MainDevelopment';
 import Graphic from './main/MainDesign';
-import Photography from './main/MainDesign';
+import Photography from './main/MainPhotography';
 
 function App() {
   const [menu, setMenu] = useState(false);
@@ -43,7 +43,14 @@ function App() {
       <Switch>
         <Route exact path="/Photography/">
           <section>
-            <Photography />
+            <Photography
+              content={content}
+              contentJS={contentJS}
+              contentR={contentR}
+              handleContent={handleContent}
+              handleContentJS={handleContentJS}
+              handleContentR={handleContentR}
+            />
           </section>
         </Route>
         <Route exact path="/GraphicDesign/">
