@@ -17,51 +17,55 @@ const WebDev = (props) => {
   return (
     <>
       <Header menu={menu} handleMenuButton={handleMenuButton} />
-      <section className="allWeb">
-        <p className="titleWeb">Web Development Projects</p>
-        <img src={web} alt="web>" className="imgweb" />
-        <div className="containerP">
-          <p className="pWeb">
-            This page is focused on projects I created with:
-            HTML-CSS-Sass-JavaScript-React-Node
+      <div className="background">
+        <section className="allWeb">
+          <p className="titleWeb">Web Development Projects</p>
+          <img src={web} alt="web>" className="imgweb" />
+          <div className="containerP">
+            <p className="pWeb">
+              This page is focused on projects I created with:
+              HTML-CSS-Sass-JavaScript-React-Node
+            </p>
+          </div>
+          <section className="toggleCont">
+            <p className="toggleP">HTML Projects</p>
+            <img
+              src={down}
+              alt="arrow"
+              className="arrow"
+              onClick={props.handleContent}
+            />
+          </section>
+          <p className="containerWeb">
+            {props.content === true ? <Html /> : ''}
           </p>
-        </div>
-        <section className="toggleCont">
-          <p className="toggleP">HTML Projects</p>
-          <img
-            src={down}
-            alt="arrow"
-            className="arrow"
-            onClick={props.handleContent}
-          />
-        </section>
-        <p className="containerWeb">{props.content === true ? <Html /> : ''}</p>
-        <section className="toggleCont">
-          <p className="toggleP">JavaScript Projects</p>
-          <img
-            src={down}
-            alt="arrow"
-            className="arrow"
-            onClick={props.handleContentJS}
-          />
-        </section>
-        <p className="containerWeb">
-          {props.contentJS === true ? <Javascript /> : ''}
-        </p>
+          <section className="toggleCont">
+            <p className="toggleP">JavaScript Projects</p>
+            <img
+              src={down}
+              alt="arrow"
+              className="arrow"
+              onClick={props.handleContentJS}
+            />
+          </section>
+          <p className="containerWeb">
+            {props.contentJS === true ? <Javascript /> : ''}
+          </p>
 
-        <section className="toggleCont">
-          <p className="toggleP">React Projects</p>
-          <img
-            src={down}
-            alt="arrow"
-            className="arrow"
-            onClick={props.handleContentR}
-          />
+          <section className="toggleCont">
+            <p className="toggleP">React Projects</p>
+            <img
+              src={down}
+              alt="arrow"
+              className="arrow"
+              onClick={props.handleContentR}
+            />
+          </section>
+          <p className="containerWeb">
+            {props.contentR === true ? <ReactSection /> : ''}
+          </p>
         </section>
-        <p className="containerWeb">
-          {props.contentR === true ? <ReactSection /> : ''}
-        </p>
-      </section>
+      </div>
 
       <Footer />
     </>
