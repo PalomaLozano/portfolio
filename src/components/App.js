@@ -8,6 +8,7 @@ import Footer from './main/Footer';
 import WebDev from './main/MainDevelopment';
 import Graphic from './main/MainDesign';
 import Photography from './main/MainPhotography';
+import Contact from './main/Contact';
 
 function App() {
   const [menu, setMenu] = useState(false);
@@ -41,6 +42,9 @@ function App() {
   return (
     <>
       <Switch>
+        <Route exact path="/Contact/">
+          <Contact />
+        </Route>
         <Route exact path="/Photography/">
           <section>
             <Photography

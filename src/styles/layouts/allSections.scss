@@ -15,7 +15,7 @@
     text-align: center;
     margin-top: 80px;
     color: rgb(197, 197, 197);
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Amatic SC', cursive;
     font-size: 35px;
     @media all and (min-width: 768px) {
       margin: 100px;
@@ -34,7 +34,7 @@
 
     .descriptionSection {
       padding-top: 20px;
-      font-size: 17px;
+      font-size: 25px;
       @media all and (min-width: 2044px) {
         font-size: 35px;
       }
@@ -67,11 +67,14 @@
       }
     }
     .pGraphic {
-      padding-bottom: 30px;
+      padding-bottom: 90px;
       text-align: center;
       font-size: 25px;
       font-family: 'Amatic SC', cursive;
       color: #a598ec;
+      @media all and (min-width: 768px) {
+        font-size: 35px;
+      }
       &:hover {
         color: transparent;
         background-image: linear-gradient(
@@ -86,6 +89,7 @@
         animation: color 3s linear infinite;
         animation-direction: alternate-reverse;
         background-size: 500%;
+
         @keyframes color {
           from {
             background-position: 0% 50%;

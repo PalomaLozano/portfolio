@@ -1,5 +1,6 @@
 import SlideImage from '../resources/SlideImage';
 import AllSections from './AllSections';
+import MainContact from './MainContact';
 import arrow from '../../images/down-arrow.png';
 
 const MainPage = () => {
@@ -29,6 +30,7 @@ const MainPage = () => {
           <img src={arrow} alt="arrow" className="arrowMain" />
         </section>
         <AllSections />
+        <MainContact />
       </main>
     </>
   );

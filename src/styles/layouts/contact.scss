@@ -1,0 +1,71 @@
+.maincontact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #1a7288;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  @media all and (min-width: 768px) {
+    height: 100%;
+  }
+  .contact {
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: rgb(218, 218, 218);
+    @media all and (min-width: 768px) {
+      font-size: 55px;
+    }
+    @media all and (min-width: 1024px) {
+      font-size: 65px;
+    }
+  }
+  .descriptionContact {
+    width: 300px;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 30px;
+    color: rgb(218, 218, 218);
+  }
+  .buttongo {
+    padding-bottom: 50px;
+  }
+}
+
+.containterContact {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../images/bgcolor2.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.letstalk {
+  text-align: center;
+  padding-top: 90px;
+  color: rgb(197, 197, 197);
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+}
+.imgContact {
+  padding-top: 50px;
+  width: 300px;
+}
+.contactForm {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
