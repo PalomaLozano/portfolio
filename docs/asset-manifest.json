@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.39c259d9.chunk.css",
-    "main.js": "./static/js/main.5a4f3b5a.chunk.js",
-    "main.js.map": "./static/js/main.5a4f3b5a.chunk.js.map",
+    "main.css": "./static/css/main.785417d8.chunk.css",
+    "main.js": "./static/js/main.fc9cdba4.chunk.js",
+    "main.js.map": "./static/js/main.fc9cdba4.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.7ad783a2.js",
     "runtime-main.js.map": "./static/js/runtime-main.7ad783a2.js.map",
     "static/js/2.b3655136.chunk.js": "./static/js/2.b3655136.chunk.js",
     "static/js/2.b3655136.chunk.js.map": "./static/js/2.b3655136.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.39c259d9.chunk.css.map": "./static/css/main.39c259d9.chunk.css.map",
+    "static/css/main.785417d8.chunk.css.map": "./static/css/main.785417d8.chunk.css.map",
     "static/js/2.b3655136.chunk.js.LICENSE.txt": "./static/js/2.b3655136.chunk.js.LICENSE.txt",
     "static/media/8mmm.76c0d373.jpg": "./static/media/8mmm.76c0d373.jpg",
     "static/media/AUTO.1817df9e.jpg": "./static/media/AUTO.1817df9e.jpg",
@@ -38,6 +38,8 @@
     "static/media/ga2.c84ce8d9.png": "./static/media/ga2.c84ce8d9.png",
     "static/media/ga3.5e4796fa.png": "./static/media/ga3.5e4796fa.png",
     "static/media/garriher.ca9ff762.jpg": "./static/media/garriher.ca9ff762.jpg",
+    "static/media/github.8b4b2cb3.png": "./static/media/github.8b4b2cb3.png",
+    "static/media/gmail.1baaa74a.png": "./static/media/gmail.1baaa74a.png",
     "static/media/graphic.b98e4831.jpg": "./static/media/graphic.b98e4831.jpg",
     "static/media/graphicdes.669ae480.png": "./static/media/graphicdes.669ae480.png",
     "static/media/guess.b2478151.png": "./static/media/guess.b2478151.png",
@@ -67,6 +69,7 @@
     "static/media/line3.11d7333a.png": "./static/media/line3.11d7333a.png",
     "static/media/line4.6a395f91.png": "./static/media/line4.6a395f91.png",
     "static/media/line5.afeb5efc.png": "./static/media/line5.afeb5efc.png",
+    "static/media/linkedin.697b327b.png": "./static/media/linkedin.697b327b.png",
     "static/media/lisboa2.5b1af2e5.png": "./static/media/lisboa2.5b1af2e5.png",
     "static/media/open.28433036.jpg": "./static/media/open.28433036.jpg",
     "static/media/org.f15dc89f.png": "./static/media/org.f15dc89f.png",
@@ -102,7 +105,7 @@
   "entrypoints": [
     "static/js/runtime-main.7ad783a2.js",
     "static/js/2.b3655136.chunk.js",
-    "static/css/main.39c259d9.chunk.css",
-    "static/js/main.5a4f3b5a.chunk.js"
+    "static/css/main.785417d8.chunk.css",
+    "static/js/main.fc9cdba4.chunk.js"
   ]
 }
