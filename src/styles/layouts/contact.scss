@@ -67,5 +67,34 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+
+    .label {
+      color: rgb(197, 197, 197);
+      font-family: 'Amatic SC', cursive;
+      font-size: 30px;
+      padding-bottom: 20px;
+    }
   }
+}
+
+.input {
+  font-size: 18px;
+  color: #382c6a;
+  font-family: 'Quicksand', sans-serif;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.inputMessage {
+  text-align: center;
+  width: 200px;
+  height: 400px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #382c6a;
+  font-family: 'Quicksand', sans-serif;
 }
