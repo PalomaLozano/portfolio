@@ -51,10 +51,19 @@
   color: rgb(197, 197, 197);
   font-family: 'Amatic SC', cursive;
   font-size: 40px;
+  @media all and (min-width: 768px) {
+    font-size: 60px;
+  }
 }
 .imgContact {
   padding-top: 50px;
   width: 300px;
+  @media all and (min-width: 768px) {
+    width: 600px;
+  }
+  @media all and (min-width: 1440px) {
+    width: 900px;
+  }
 }
 .contactForm {
   padding-top: 50px;
@@ -65,14 +74,17 @@
   .form {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 
     .label {
       color: rgb(197, 197, 197);
       font-family: 'Amatic SC', cursive;
       font-size: 30px;
       padding-bottom: 20px;
+      @media all and (min-width: 768px) {
+        font-size: 50px;
+      }
     }
   }
 }
@@ -86,15 +98,71 @@
   margin-bottom: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
+  @media all and (min-width: 768px) {
+    width: 400px;
+  }
+}
+.textarea {
+  width: 100px;
 }
 .inputMessage {
   text-align: center;
   width: 200px;
-  height: 400px;
+  height: 300px;
   margin-bottom: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
   font-size: 18px;
   color: #382c6a;
   font-family: 'Quicksand', sans-serif;
+  @media all and (min-width: 768px) {
+    width: 400px;
+  }
+}
+.sendbutton {
+  border-radius: 10px;
+  background-color: #a598ec;
+  font-family: 'Amatic SC', cursive;
+  color: #382c6a;
+  font-size: 25px;
+  margin-bottom: 40px;
+  width: 150px;
+  @media all and (min-width: 768px) {
+    width: 200px;
+    font-size: 35px;
+  }
+}
+
+.titleSocial {
+  font-family: 'Amatic SC', cursive;
+  color: rgb(197, 197, 197);
+  font-size: 40px;
+  text-align: center;
+  @media all and (min-width: 768px) {
+    font-size: 55px;
+    margin-top: 10px;
+  }
+}
+
+.containerIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  .icons {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    @media all and (min-width: 768px) {
+      width: 70px;
+      height: 70px;
+    }
+  }
+}
+
+.thank {
+  font-family: 'Pacifico', cursive;
+  color: rgb(197, 197, 197);
+  font-size: 35px;
+  margin-bottom: 60px;
 }

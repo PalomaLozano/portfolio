@@ -5,7 +5,7 @@ const Posters = () => {
     <>
       <section className="containerDesign">
         <div className="descriptionDesign">
-          <h5 className="titleDes">Lineal Project</h5>
+          <h5 className="titleDes">Posters</h5>
           <p className="graphicP">
             Here you can see a set of my best posters. They haven´t got any
             correlation between them. They were used for expositions, solidarity

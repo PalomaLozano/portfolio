@@ -2,6 +2,9 @@ import { useState } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import talk from '../../images/talk.jpg';
+import linkedin from '../../icons/linkedin.png';
+import gmail from '../../icons/gmail.png';
+import github from '../../icons/github.png';
 
 const Contact = () => {
   const [menu, setMenu] = useState(false);
@@ -30,6 +33,7 @@ const Contact = () => {
               id="Name"
               name="Name"
               className="input"
+              required
             />
             <label className="label" for="emailAddress">
               E-mail
@@ -40,22 +44,39 @@ const Contact = () => {
               id="emailAddress"
               name="emailAddress"
               className="input"
+              required
             />
             <label for="message" className="label">
               Message
             </label>
-            <input
+            <textarea
+              rows="20"
+              cols="80"
               placeholder="Write your message"
               type="text"
               id="comments"
               name="comments"
-              size="15"
-              maxlength="100"
               className="inputMessage"
-            />
-            <input type="submit" value="Enviar" />
+              required
+            ></textarea>
+            <input type="submit" value="Send Message" className="sendbutton" />
           </form>
         </div>
+        <section>
+          <h4 className="titleSocial">Social Networks</h4>
+          <div className="containerIcons">
+            <a href="https://www.linkedin.com/in/paloma-lozano">
+              <img src={linkedin} alt="linkedin" className="icons" />
+            </a>
+            <a href="mailto:palomalogu9@gmail.com">
+              <img src={gmail} alt="gmail" className="icons" />
+            </a>
+            <a href="https://github.com/PalomaLozano">
+              <img src={github} alt="github" className="icons" />
+            </a>
+          </div>
+        </section>
+        <p className="thank">Thank you!</p>
       </section>
 
       <Footer />
