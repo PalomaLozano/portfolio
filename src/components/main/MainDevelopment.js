@@ -23,8 +23,8 @@ const WebDev = (props) => {
         <img src={web} alt="web>" className="imgweb" />
         <div className="containerP">
           <p className="pWeb">
-            This page is focused on projects I created with:
-            HTML-CSS-Sass-JavaScript-React-Node
+            This page is focused on projects I created by myself and in group.
+            The technologies used are: HTML-CSS-Sass-JavaScript-React-Node
           </p>
         </div>
         <section className="toggleCont">

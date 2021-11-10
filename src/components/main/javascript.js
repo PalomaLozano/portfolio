@@ -5,6 +5,11 @@ import JS1 from '../../imageswebdev/javas2mob.png';
 import JS2 from '../../imageswebdev/javas3mob.png';
 import JS3 from '../../imageswebdev/javas.png';
 import JS4 from '../../imageswebdev/javas2.png';
+import JS5 from '../../imageswebdev/awmob.png';
+import JS6 from '../../imageswebdev/awmob2.png';
+import JS7 from '../../imageswebdev/awmob3.png';
+import JS8 from '../../imageswebdev/awdesk.png';
+import JS9 from '../../imageswebdev/awdesk2.png';
 
 const Javascript = () => {
   return (
@@ -66,6 +71,30 @@ const Javascript = () => {
       </p>
       <a
         href=" https://palomalozano.github.io/Javascript-Project/page1.html"
+        className="linkWeb"
+        target="-blank"
+      >
+        Link
+      </a>
+      <h4 className="anomP">Awesome Cards</h4>
+      <p className="version">Mobile version</p>
+      <section className="mobilesSection">
+        <img src={JS5} alt="mobile" className="mobile"></img>
+        <img src={JS6} alt="mobile" className="mobile"></img>
+        <img src={JS7} alt="mobile" className="mobile"></img>
+      </section>
+      <p className="version">Desktop and tablet version</p>
+      <section className="tabletSection">
+        <img src={JS8} alt="desk" className="desk"></img>
+        <img src={JS9} alt="desk" className="desk"></img>
+      </section>
+      <p className="descriptionProject">
+        This project consists in create your own virtual card. You can choose a
+        palette of colors, upload your image, put you information, even your
+        social network. We generate the card in a link for share.
+      </p>
+      <a
+        href="http://beta.adalab.es/project-promo-n-module-2-team-3/"
         className="linkWeb"
         target="-blank"
       >

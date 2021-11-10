@@ -8,6 +8,7 @@ import line7 from '../../imgPhoto/garriher.jpg';
 import line8 from '../../imgPhoto/open.jpg';
 import line9 from '../../imgPhoto/pink.png';
 import line10 from '../../imgPhoto/unisex.jpg';
+import line11 from '../../imgPhoto/15min.png';
 
 const PhotoImagesVar = () => {
   return (
@@ -15,10 +16,10 @@ const PhotoImagesVar = () => {
       <div className="divBox">
         <ul className="containerUl">
           <li>
-            <img src={line3} alt="img List" className="imagDes" />
+            <img src={line6} alt="img List" className="imagDes" />
           </li>
           <li>
-            <img src={line5} alt="img List" className="imagDes" />
+            <img src={line8} alt="img List" className="imagDes" />
           </li>
 
           <li>
@@ -27,10 +28,10 @@ const PhotoImagesVar = () => {
         </ul>
         <ul className="containerUl">
           <li>
-            <img src={line6} alt="img List" className="imagDes" />
+            <img src={line3} alt="img List" className="imagDes" />
           </li>
           <li>
-            <img src={line8} alt="img List" className="imagDes" />
+            <img src={line5} alt="img List" className="imagDes" />
           </li>
           <li>
             <img src={line9} alt="img List" className="imagDes" />
@@ -39,6 +40,9 @@ const PhotoImagesVar = () => {
         <ul className="containerUl">
           <li>
             <img src={line2} alt="img List" className="imagDes" />
+          </li>
+          <li>
+            <img src={line11} alt="img List" className="imagDes" />
           </li>
           <li>
             <img src={line7} alt="img List" className="imagDes" />
