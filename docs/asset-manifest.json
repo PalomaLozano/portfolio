@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.785417d8.chunk.css",
-    "main.js": "./static/js/main.8a1691e3.chunk.js",
-    "main.js.map": "./static/js/main.8a1691e3.chunk.js.map",
+    "main.js": "./static/js/main.fc96e9e9.chunk.js",
+    "main.js.map": "./static/js/main.fc96e9e9.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.7ad783a2.js",
     "runtime-main.js.map": "./static/js/runtime-main.7ad783a2.js.map",
     "static/js/2.740a7532.chunk.js": "./static/js/2.740a7532.chunk.js",
@@ -53,7 +53,6 @@
     "static/media/graphic.b98e4831.jpg": "./static/media/graphic.b98e4831.jpg",
     "static/media/graphicdes.669ae480.png": "./static/media/graphicdes.669ae480.png",
     "static/media/guess.b2478151.png": "./static/media/guess.b2478151.png",
-    "static/media/hamb.d64acaba.png": "./static/media/hamb.d64acaba.png",
     "static/media/iconmonstr-angel-left-thin.b74b51c4.svg": "./static/media/iconmonstr-angel-left-thin.b74b51c4.svg",
     "static/media/iconmonstr-angel-right-thin.b282d2fc.svg": "./static/media/iconmonstr-angel-right-thin.b282d2fc.svg",
     "static/media/ilu.ff78b352.png": "./static/media/ilu.ff78b352.png",
@@ -117,6 +116,6 @@
     "static/js/runtime-main.7ad783a2.js",
     "static/js/2.740a7532.chunk.js",
     "static/css/main.785417d8.chunk.css",
-    "static/js/main.8a1691e3.chunk.js"
+    "static/js/main.fc96e9e9.chunk.js"
   ]
 }
