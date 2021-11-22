@@ -26,25 +26,15 @@ const Photography = (props) => {
             Illustrator and Lightroom.
           </p>
         </div>
-        <section className="toggleCont">
+        <section className="toggleCont" onClick={props.handleContent}>
           <p className="toggleP">Photographies</p>
-          <img
-            src={down}
-            alt="arrow"
-            className="arrow"
-            onClick={props.handleContent}
-          />
+          <img src={down} alt="arrow" className="arrow" />
         </section>
         <div>{props.content && <PhotographyPage />}</div>
 
-        <section className="toggleCont">
+        <section className="toggleCont" onClick={props.handleContentJS}>
           <p className="toggleP">Variety</p>
-          <img
-            src={down}
-            alt="arrow"
-            className="arrow"
-            onClick={props.handleContentJS}
-          />
+          <img src={down} alt="arrow" className="arrow" />
         </section>
         <div>{props.contentJS && <PhotoVar />}</div>
       </section>

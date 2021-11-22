@@ -26,25 +26,15 @@ const Graphic = (props) => {
             Illustrator and InDesign.
           </p>
         </div>
-        <section className="toggleCont">
+        <section className="toggleCont" onClick={props.handleContent}>
           <p className="toggleP">Illustrations</p>
-          <img
-            src={down}
-            alt="arrow"
-            className="arrow"
-            onClick={props.handleContent}
-          />
+          <img src={down} alt="arrow" className="arrow" />
         </section>
         <div>{props.content && <GraphicDes />}</div>
 
-        <section className="toggleCont">
+        <section className="toggleCont" onClick={props.handleContentJS}>
           <p className="toggleP">Posters</p>
-          <img
-            src={down}
-            alt="arrow"
-            className="arrow"
-            onClick={props.handleContentJS}
-          />
+          <img src={down} alt="arrow" className="arrow" />
         </section>
         <div>{props.contentJS && <Posters />}</div>
       </section>

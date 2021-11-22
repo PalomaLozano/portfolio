@@ -27,35 +27,20 @@ const WebDev = (props) => {
             The technologies used are: HTML-CSS-Sass-JavaScript-React-Node
           </p>
         </div>
-        <section className="toggleCont">
+        <section className="toggleCont" onClick={props.handleContent}>
           <p className="toggleP">HTML Projects</p>
-          <img
-            src={down}
-            alt="arrow"
-            className="arrow"
-            onClick={props.handleContent}
-          />
+          <img src={down} alt="arrow" className="arrow" />
         </section>
         <div className="containerWeb">{props.content && <Html />}</div>
-        <section className="toggleCont">
+        <section className="toggleCont" onClick={props.handleContentJS}>
           <p className="toggleP">JavaScript Projects</p>
-          <img
-            src={down}
-            alt="arrow"
-            className="arrow"
-            onClick={props.handleContentJS}
-          />
+          <img src={down} alt="arrow" className="arrow" />
         </section>
         <div className="containerWeb">{props.contentJS && <Javascript />}</div>
 
-        <section className="toggleCont">
+        <section className="toggleCont" onClick={props.handleContentR}>
           <p className="toggleP">React Projects</p>
-          <img
-            src={down}
-            alt="arrow"
-            className="arrow"
-            onClick={props.handleContentR}
-          />
+          <img src={down} alt="arrow" className="arrow" />
         </section>
         <div className="containerWeb">{props.contentR && <ReactSection />}</div>
       </section>
