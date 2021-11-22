@@ -35,7 +35,7 @@ const Photography = (props) => {
             onClick={props.handleContent}
           />
         </section>
-        <p>{props.content && <PhotographyPage />}</p>
+        <div>{props.content && <PhotographyPage />}</div>
 
         <section className="toggleCont">
           <p className="toggleP">Variety</p>
@@ -46,7 +46,7 @@ const Photography = (props) => {
             onClick={props.handleContentJS}
           />
         </section>
-        <p>{props.contentJS && <PhotoVar />}</p>
+        <div>{props.contentJS && <PhotoVar />}</div>
       </section>
 
       <Footer />

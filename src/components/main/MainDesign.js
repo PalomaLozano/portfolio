@@ -35,7 +35,7 @@ const Graphic = (props) => {
             onClick={props.handleContent}
           />
         </section>
-        <p>{props.content && <GraphicDes />}</p>
+        <div>{props.content && <GraphicDes />}</div>
 
         <section className="toggleCont">
           <p className="toggleP">Posters</p>
@@ -46,7 +46,7 @@ const Graphic = (props) => {
             onClick={props.handleContentJS}
           />
         </section>
-        <p>{props.contentJS && <Posters />}</p>
+        <div>{props.contentJS && <Posters />}</div>
       </section>
 
       <Footer />
