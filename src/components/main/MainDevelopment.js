@@ -36,7 +36,7 @@ const WebDev = (props) => {
             onClick={props.handleContent}
           />
         </section>
-        <p className="containerWeb">{props.content === true ? <Html /> : ''}</p>
+        <div className="containerWeb">{props.content && <Html />}</div>
         <section className="toggleCont">
           <p className="toggleP">JavaScript Projects</p>
           <img
@@ -46,9 +46,7 @@ const WebDev = (props) => {
             onClick={props.handleContentJS}
           />
         </section>
-        <p className="containerWeb">
-          {props.contentJS === true ? <Javascript /> : ''}
-        </p>
+        <div className="containerWeb">{props.contentJS && <Javascript />}</div>
 
         <section className="toggleCont">
           <p className="toggleP">React Projects</p>
@@ -59,9 +57,7 @@ const WebDev = (props) => {
             onClick={props.handleContentR}
           />
         </section>
-        <p className="containerWeb">
-          {props.contentR === true ? <ReactSection /> : ''}
-        </p>
+        <div className="containerWeb">{props.contentR && <ReactSection />}</div>
       </section>
 
       <Footer />

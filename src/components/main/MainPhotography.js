@@ -35,7 +35,7 @@ const Photography = (props) => {
             onClick={props.handleContent}
           />
         </section>
-        <p>{props.content === true ? <PhotographyPage /> : ''}</p>
+        <p>{props.content && <PhotographyPage />}</p>
 
         <section className="toggleCont">
           <p className="toggleP">Variety</p>
@@ -46,7 +46,7 @@ const Photography = (props) => {
             onClick={props.handleContentJS}
           />
         </section>
-        <p>{props.contentJS === true ? <PhotoVar /> : ''}</p>
+        <p>{props.contentJS && <PhotoVar />}</p>
       </section>
 
       <Footer />

@@ -1,5 +1,4 @@
 import line1 from '../../imgPhoto/absurd.png';
-import line2 from '../../imgPhoto/hamb.png';
 import line3 from '../../imgPhoto/parvati5.png';
 import line4 from '../../imgPhoto/Balloons.jpg';
 import line5 from '../../imgPhoto/desconnected2.jpg';
@@ -38,9 +37,6 @@ const PhotoImagesVar = () => {
           </li>
         </ul>
         <ul className="containerUl">
-          <li>
-            <img src={line2} alt="img List" className="imagDes" />
-          </li>
           <li>
             <img src={line11} alt="img List" className="imagDes" />
           </li>
